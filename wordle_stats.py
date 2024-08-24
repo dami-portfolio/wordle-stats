@@ -56,6 +56,10 @@ class UserStats:
         return f"{round(self.sum_guesses_to_win / self.num_wins, 1)}"
 
     def __str__(self):
+        """
+        Overwrites __str__ so that it has a printable value
+        """
+        
         str_val = f"""
         User ID: {self.user_id}, User: {self.user_name.upper()}
         Played: {self.num_played}, Win %: {self.percent_wins}, Average # Guesses to Win: {self.avg_guesses_to_win}
@@ -112,5 +116,6 @@ if __name__ == "__main__":
 
         all_user_stats.append(user_stats)
 
+    # print statistics for each user
     for user_stats in all_user_stats:
         print(user_stats)
