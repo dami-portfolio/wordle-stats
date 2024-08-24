@@ -24,6 +24,7 @@ From the command line, run
 Docker has to be running on your machine. Then execute the following commands
 
 `docker build . -t <image_name>`
+
 `docker run <image_name>`
 
 The output is a list of statistics for each user
