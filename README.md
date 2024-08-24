@@ -12,13 +12,13 @@ Wordle is a game in which a user makes a set of attempts to guess at a word. 6 a
 The output is some basic statistics for each user.
 
 ## Getting Started
-Either docker or python3 has to be installed on your machine
+Either docker or python has to be installed on your machine
 
 ## Executing project
 
 ### Python3 version
 From the command line, run 
-`python3 wordle_stats.py`
+`python wordle_stats.py`
 
 ### Docker version
 Docker has to be running on your machine. Then execute the following commands
