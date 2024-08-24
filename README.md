@@ -1,6 +1,8 @@
 # Wordle Statistics Printer
 Prints wordle statistics for users.
 
+Note: The following is a very simplistic version, there are many ways to improve it.
+
 ### The Game
 Wordle is a game in which a user makes a set of attempts to guess at a word. 6 attempts are provided, else the user loses the game.
 
