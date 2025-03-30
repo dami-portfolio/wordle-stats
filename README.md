@@ -1,5 +1,5 @@
 # Wordle Statistics Printer
-Prints wordle statistics for users.
+A simple program that prints your wordle statistics.
 
 Note: The following is a very simplistic version, there are many ways to improve it.
 
